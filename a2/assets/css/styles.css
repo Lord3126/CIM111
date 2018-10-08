@@ -1,52 +1,17 @@
-
-  a:link {
-    text-decoration: none;
+  a:link{
+    text-decoration: blue;
   }
   a:link{
-    color: orange
+    color: orange;
   }
-  a:visited {
+  a:visited{
     background-color: cyan;
   }
-  a:hover {
+  a:hover{
     background-color: lightgreen;
   }
-  a:active {
+  a:active{
     background-color: hotpink;
-    p {
+    p{
     font-family: "Times New Roman", Times, serif;
 }
-.city {
-  background-color: tomato;
-  color: white;
-  padding: 10px;
-}
-.town {
-  background-color: white;
-  color: black;
-  padding: 10px;
-}
-.suburbs {
-  background-color: orange;
-  color: green;
-  padding: 10px;
-}
-.island {
-  background-color: blue;
-  color: white;
-  padding: 10px;
-}
-h1{
-font-family: "Arial Narrow", Arial, serif;
-}
-#myHeader {
-  background-color: white;
-  color: hotpink;
-  padding: 40px;
-  text-align: center;
-}
-#para1 {
-  color: green;
-}
-
-.crosshair {cursor: crosshair;}
