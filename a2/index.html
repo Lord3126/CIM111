@@ -1,22 +1,63 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-  <h1> Jarod Malnik </h1>
-  <body>
-  <h2> About </h2>
+  <meta name="keywords" content="HTML, CSS, Me, About, First, Jarod">
+  <meta name="author" content="Jarod Malnik">
+   <link rel="stylesheet" href="styles.css">
+   <style>
+   .city {
+     background-color: tomato;
+     color: white;
+     padding: 10px;
+   }
+   .town {
+     background-color: white;
+     color: black;
+     padding: 10px;
+   }
+   .suburbs {
+     background-color: orange;
+     color: green;
+     padding: 10px;
+   }
+   .island {
+     background-color: blue;
+     color: white;
+     padding: 10px;
+   }
+   h1{
+   font-family: "Arial Narrow", Arial, serif;
+   }
+   #myHeader {
+     background-color: white;
+     color: hotpink;
+     padding: 40px;
+     text-align: center;
+   }
+   #para1 {
+     color: green;
+   }
+
+.crosshair {cursor: crosshair;}
+/* changed the mouse */
+   </style>
+</head>
+
+<body>
+<h1 id="myHeader">Jarod Malnik!</h1>
+<p class="crosshair">Hover over me for crosshair mouse!</p>
+
+  <h2 class="island">about</h2>
   <!-- general sum up quickly who I am -->
-  <p> My name is Jarod Malnik. I am from South Florida, and I am a <b> triplet.
-  </b>
+  <p id="para1">My name is Jarod Malnik. I am from South Florida, and I am a <b> triplet.</b>
   I enjoy playing basketball, and am a big fan of cars. I am also a student at
-the university of Miami, enrolled in <b> CIM111!</b> </p>
-<meta name="keywords" content="HTML, CSS, Me, About, First, Jarod">
-<meta name="author" content="Jarod Malnik">
-<h3> Photo </h3>
-<img src="Kids.jpg" alt="childhood photo" width="360" height="240">
+the university of Miami, <b>enrolled in </b> CIM111!</p>
+
+<h3 class="city">Photo</h3>
+<img src="images/Kids.jpg" alt="childhood photo" width="360" height="240">
 <address> Any questions? <a href="mailto:admin@jarodssite.com">Jarod Malnik</a>
 </address>
-<h3> Hobbies </h3>
+<h3 class="town">Hobbies</h3>
 <ol type="I">
 <li> Basketball </li>
 <li> Cars </li>
@@ -24,7 +65,7 @@ the university of Miami, enrolled in <b> CIM111!</b> </p>
 <li> Eat </li>
 <li> <b> Sleep </b> </li>
   <br>
-<h3> Work Experience </h3>
+<h3 class="suburbs">Work Experience</h3>
 <p>
 Spent a summer working at Creative Artists Agency in Los Angeles. I learned
 a ton and for those interested, click below!
@@ -33,7 +74,7 @@ a ton and for those interested, click below!
 
 
 
-  <h3> Nationality </h3>
+  <h3 class="town">Nationality</h3>
   <table>
     <tr>
       <th>50%</th>
@@ -45,7 +86,7 @@ a ton and for those interested, click below!
         </tr>
   </table>
 
-<h3> Favorite Website </h3>
+<h3 class="island">Favorite Website?</h3>
 <a href="https://www.facebook.com/"target="_blank"> Obviously Facebook! Click me
  </a>
 
@@ -53,5 +94,4 @@ a ton and for those interested, click below!
 <body style="background-color:powderblue;">
 
 </body>
-</head>
 </html>
