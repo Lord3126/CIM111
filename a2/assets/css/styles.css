@@ -16,3 +16,37 @@
     p {
     font-family: "Times New Roman", Times, serif;
 }
+.city {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+}
+.town {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+.suburbs {
+  background-color: orange;
+  color: green;
+  padding: 10px;
+}
+.island {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+}
+h1{
+font-family: "Arial Narrow", Arial, serif;
+}
+#myHeader {
+  background-color: white;
+  color: hotpink;
+  padding: 40px;
+  text-align: center;
+}
+#para1 {
+  color: green;
+}
+
+.crosshair {cursor: crosshair;}
